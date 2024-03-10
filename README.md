@@ -12,9 +12,9 @@ Built for CS 1530 Software Engineering at the University of Pittsburgh
 
 
 # Create Virtual Environment
-Make sure Python 3 is installed on your machine
-Open a terminal in this directory
-Run the command: ```python -m venv .``` which will create a virtual env in this directory
-Next run ```Scripts\activate``` (windows) or ```Scripts/activate``` (mac/linux)
-Followed by ```Scripts\pip install -r requirements.txt``` (slash instead of backslash for mac/linux)
-This will install all packages specified in requirements.txt
+- Make sure Python 3 is installed on your machine
+- Open a terminal in this directory
+- Run the command: ```python -m venv .``` which will create a virtual env in this directory
+- Next run ```Scripts\activate``` (windows) or ```Scripts/activate``` (mac/linux)
+- Followed by ```Scripts\pip install -r requirements.txt``` (slash instead of backslash for mac/linux)
+- This will install all packages specified in requirements.txt
