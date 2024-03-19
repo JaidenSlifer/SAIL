@@ -8,3 +8,6 @@ class SentimentModel:
 
   def test():
     pass
+
+  def save_model():
+    pass
