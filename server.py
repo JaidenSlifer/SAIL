@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
-from scraper import ArticleScraper
-from textprocessor import TextProcessor
+#from scraper import ArticleScraper
+#from textprocessor import TextProcessor
 
 class ServerController:
     
