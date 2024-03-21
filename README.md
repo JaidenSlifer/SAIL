@@ -24,6 +24,7 @@ Built for CS 1530 Software Engineering at the University of Pittsburgh
 - Next run ```Scripts\activate``` (windows) or ```Scripts/activate``` (mac/linux)
 - Followed by ```Scripts\pip install -r requirements.txt``` (slash instead of backslash for mac/linux)
 - This will install all packages specified in requirements.txt
+- To download nltk data, run ```python nltk_download.py```
 
 ### Group Members
 - Jaiden Slifer

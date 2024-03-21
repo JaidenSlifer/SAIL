@@ -35,5 +35,6 @@ if __name__ == '__main__':
       elif(arg == 'save'):
         raise NotImplementedError
       else:
+        print("Command not recognized")
         quit = True
         break
