@@ -22,11 +22,12 @@ class ArticleScraper:
 
   # uses ticker instance variable and return a list of article links
   def getArticleLinks(self):
+    # https://finviz.com/quote.ashx?t=TICKER&p=d
     target_url = self.base_url.format(self.ticker)  # Assuming base_url expects to be formatted with the ticker
     self.driver.get(target_url)
 
     # TODO: Need to tailor for site structure   
-    link_elements = self.driver.find_elements(By.CSS_SELECTOR, 'a.article-link')
+    link_elements = self.driver.find_elements(By.CSS_SELECTOR, 'tr.cursor-pointer.has-label a.tab-link-news')
         
     article_links = [element.get_attribute('href') for element in link_elements]
     return article_links
